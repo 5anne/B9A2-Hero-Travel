@@ -1,0 +1,217 @@
+body{
+    margin: 50px 100px;
+}
+
+/* First Part: Header  */
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-name{
+    display: flex;
+}
+.fav-style{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 15px;
+}
+.travel-style{
+    color: #FF5400;
+}
+.links{
+    display: flex;
+}
+span.nav-bar{
+    display: none;
+}
+.link-style{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 20px;
+}
+.home-color{
+    color: #FF5400;
+}
+
+.explore-segment{
+    background-image: url('../Assignment-2/B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-blend-mode: multiply;
+    background-color: rgb(154, 144, 144);
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    text-align: center;
+    margin: 50px 0;
+    padding: 106px 100px;
+}
+.explore-title{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.explore-description{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 26px;
+    margin-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.input-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.input-style{
+    width: 175px;
+    height: 50px;
+    border-radius: 8px;
+    border-color: #FFF;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px;
+}
+.icon-style{
+    position: relative;
+    right: 55px;
+    width: 24px;
+    height: 24px;
+}
+.find-more{
+    width: 175px;
+    height: 60px;
+    border-radius: 8px;
+    border-color: #FF5400;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.fa-solid{
+    margin-right: 6px;
+}
+
+/* Second Section  */
+
+.part-two{
+    display: flex;
+    margin-top: 100px;
+    gap: 60px;
+}
+.popular-tour h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.tour-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal; 
+    font-weight: 400;
+    line-height: 26px;
+}
+.read-more{
+    font-size: 1.25rem;
+}
+
+/* Third Section */
+.part-three{
+    margin-top: 60px;
+}
+.tour-destination{
+    text-align: center;
+}
+.tour-destination h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.countries{
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    body{
+        margin: 10px 15px;
+    }
+    a.link-style{
+        display: none;    
+    }
+    span.nav-bar{
+        display: inline-block;
+    }
+    .explore-segment{
+        padding: 25px 15px;
+    }
+    .explore-title{
+        font-size: 22px;
+    }
+    .explore-description{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .input-bar{
+        width: 100%;
+        height: 285px;
+        display: grid;
+        align-items: center;    
+    }
+    .input-style{
+        width: 200px;
+        height: 20px;
+        padding: 16px;
+    }
+    .find-more{
+        width: 235px;
+        height: 55px;
+    }
+    .part-two{
+        display: inline;
+    }
+    .read-more{
+        width: 150px;
+        height: 50px;
+    }
+    .mountain-img{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
