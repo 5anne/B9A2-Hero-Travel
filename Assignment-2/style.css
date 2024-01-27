@@ -158,13 +158,153 @@ span.nav-bar{
 .tour-destination h2{
     color: #131318;
     font-family: Mulish;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
-.countries{
-    
+.country-names{
+    margin-top: 50px;
+}
+.set-one{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px;
+    margin-bottom: 25px;
+}
+.img-one{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 15px;
+    background-image: url('../Assignment-2/B9A2-Hero-Travel/Images/Rectangle\ 5.png');
+    background-blend-mode: multiply;
+    background-color: rgb(19, 19, 24, 0.2);
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.img-two{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 15px;
+    background-image: url('../Assignment-2/B9A2-Hero-Travel/Images/Rectangle\ 8.png');
+    background-blend-mode: multiply;
+    background-color: rgb(19, 19, 24, 0.2);
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.set-two{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 32% 40% 23.5%;
+    grid-template-rows: 286px;
+    margin-bottom: 25px;
+}
+.img-three{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 15px;
+    background-image: url('../Assignment-2/B9A2-Hero-Travel/Images/Rectangle\ 6.png');
+    background-blend-mode: multiply;
+    background-color: rgb(19, 19, 24, 0.2);
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.img-four{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 15px;
+    background-image: url('../Assignment-2/B9A2-Hero-Travel/Images/Rectangle\ 7.png');
+    background-blend-mode: multiply;
+    background-color: rgb(19, 19, 24, 0.2);
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.img-five{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 15px;
+    background-image: url('../Assignment-2/B9A2-Hero-Travel/Images/Rectangle\ 9.png');
+    background-blend-mode: multiply;
+    background-color: rgb(19, 19, 24, 0.2);
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.set-three{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 40.5% 57.25%;
+    grid-template-rows: 300px;
+    margin-bottom: 25px;
+}
+.img-six{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 15px;
+    background-image: url('../Assignment-2/B9A2-Hero-Travel/Images/Rectangle\ 11.png');
+    background-blend-mode: multiply;
+    background-color: rgb(19, 19, 24, 0.2);
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.img-seven{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 15px;
+    background-image: url('../Assignment-2/B9A2-Hero-Travel/Images/Rectangle\ 10.png');
+    background-blend-mode: multiply;
+    background-color: rgb(19, 19, 24, 0.2);
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 
@@ -213,5 +353,23 @@ span.nav-bar{
     .mountain-img{
         width: 100%;
         margin-top: 20px;
+    }
+    .part-three{
+        margin-top: 25px;
+    }
+    .tour-destination h2{
+        font-size: 20px;
+    }
+    .country-names{
+        margin-top: 16px;
+    }
+    .set-one, .set-two, .set-three{
+        display: inline;
+    }
+    .img-one, .img-two, .img-three, .img-four, .img-five, .img-six, .img-seven{
+        display: grid;
+        grid-template-rows: 176px;
+        width: 100%;
+        margin-bottom: 16px;
     }
 }
