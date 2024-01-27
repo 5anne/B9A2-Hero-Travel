@@ -128,7 +128,7 @@ span.nav-bar{
     margin-top: 100px;
     gap: 60px;
 }
-.popular-tour h2{
+.popular-tour h3{
     color: #131318;
     font-family: Mulish;
     font-size: 2.5rem;
@@ -155,7 +155,7 @@ span.nav-bar{
 .tour-destination{
     text-align: center;
 }
-.tour-destination h2{
+.tour-destination h3{
     color: #131318;
     font-family: Mulish;
     font-size: 2.5rem;
@@ -307,7 +307,64 @@ span.nav-bar{
     line-height: normal;
 }
 
+/* Fourth Section */
 
+.part-three{
+    margin-top: 80px;
+}
+.Choose-container{
+    text-align: center;
+}
+.Choose-container h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 10px;
+}
+.Choose-container p{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.card-container{
+    display: flex;
+    gap: 25px;
+}
+.card-container-two{
+    display: flex;
+    justify-content: center;
+}
+.card-one, .card-two{
+    width: 50%;
+    height: 210px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    padding: 32px;
+    margin-bottom: 25px;
+}
+.card-one{
+    background: rgba(251, 181, 99, 0.05);
+}
+.card-two{
+    background: rgba(41, 206, 246, 0.05);
+}
+.card-three{
+    width: 50%;
+    height: 210px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+}
+.card-one h4, .card-two h4, .card-three h4{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 @media screen and (max-width: 600px) {
     body{
         margin: 10px 15px;
