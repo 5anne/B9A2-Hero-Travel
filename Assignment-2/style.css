@@ -358,7 +358,7 @@ span.nav-bar{
     background: rgba(233, 68, 68, 0.05);
     padding: 32px;
 }
-.card-one h4, .card-two h4, .card-three h4, .deals-card-one h4{
+.card-one h4, .card-two h4, .card-three h4, .deals-card-one h4, .news-letter h4{
     color: #131318;
     font-family: Mulish;
     font-size: 1.5rem;
@@ -485,6 +485,75 @@ span.nav-bar{
     bottom: 270px;
 }
 
+/* Seventh Section */
+
+.web-site{
+    display: flex;
+    gap: 25px;
+}
+.news-letter {
+    background: #FFF;
+    width: 450px;
+    height: 350px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+.name, .email{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgb(19, 19, 24, 0.05);
+    border-color: rgb(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px;
+    margin-bottom: 16px;
+}
+.subscribe{
+    width: 400px;
+}
+.travel-img{
+    width: 50%;
+    height: 430px;
+    border-radius: 16px;
+}
+.save-tag{
+    width: 300px;
+    height: 100px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-style: normal;
+    line-height: 5px;
+    padding-top: 5px;
+    position: relative;
+    bottom: 150px;
+    left: 800px;
+}
+.travel-com{  
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.save-up{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/* Eighth Section  */
+
+.part-eight{
+    text-align: center;
+    background: rgb(19, 19, 24, 0.05);
+    padding: 150px 300px;
+}
 @media screen and (max-width: 600px) {
     body{
         margin: 10px 15px;
@@ -534,7 +603,7 @@ span.nav-bar{
     .part-three, .part-five{
         margin-top: 25px;
     }
-    .tour-destination h2, .Choose-container h3, .card-one h4, .card-two h4, .card-three h4, .deals h3, .deals-card-one{
+    .tour-destination h2, .Choose-container h3, .card-one h4, .card-two h4, .card-three h4, .deals h3, .deals-card-one, .perfect-segment h1, .tour-blog p, .news-letter h4, .save-up{
         font-size: 20px;
     }
     .country-names, .price-range, .distance, .Packages{
@@ -601,5 +670,54 @@ span.nav-bar{
     }
     .Packages{
         display: none;
+    }
+    .part-six{
+        display: inline;
+    }
+    .perfect-segment{
+        width: 100%;
+    }
+    .perfect-segment h1{
+        line-height: 30px;
+    }
+    .watch{
+        width: 174px;
+        margin-bottom: 24px;
+    }
+    .trip-video{
+        width: 100%;
+        height: 200px;
+    }
+    .tour-blog p{
+        position: relative;
+        bottom: 165px;
+    }
+    .part-seven{
+        position: relative;
+        bottom: 100px;
+    }
+    .web-site{
+        display: inline;
+    }
+    .news-letter{
+        width: 90%;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .name, .email{
+        width: 245px;
+    }
+    .travel-img{
+        width: 100%;
+        height: 300px;
+    }
+    .save-tag{
+        width: 214.023px;
+        height: 79.268px;
+        left: 70px;
+        bottom: 120px;
+    }
+    .travel-com{
+        font-size: 16px;
     }
 }
