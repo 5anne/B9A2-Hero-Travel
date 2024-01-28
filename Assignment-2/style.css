@@ -309,7 +309,7 @@ span.nav-bar{
 
 /* Fourth Section */
 
-.part-three{
+.part-four{
     margin-top: 80px;
 }
 .Choose-container{
@@ -330,6 +330,7 @@ span.nav-bar{
 .card-container{
     display: flex;
     gap: 25px;
+    margin-top: 35px;
 }
 .card-container-two{
     display: flex;
@@ -357,7 +358,7 @@ span.nav-bar{
     background: rgba(233, 68, 68, 0.05);
     padding: 32px;
 }
-.card-one h4, .card-two h4, .card-three h4{
+.card-one h4, .card-two h4, .card-three h4, .deals-card-one h4{
     color: #131318;
     font-family: Mulish;
     font-size: 1.5rem;
@@ -365,6 +366,87 @@ span.nav-bar{
     font-weight: 800;
     line-height: normal;
 }
+
+/* Fourth Section */
+
+.part-five{
+    margin-top: 60px;
+}
+.deals{
+    text-align: center;
+    font-family: Mulish;
+    font-style: normal;
+    line-height: normal;
+}
+.deals h3{
+    color: #131318;
+    font-size: 2.5rem;  
+    font-weight: 800;   
+}
+.deals p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px; 
+}
+.resort-img-one, .resort-img-three{
+    background-image: url('../Assignment-2/B9A2-Hero-Travel/Images/Group\ 39.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 50px;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 25px;
+}
+.resort-img-two{
+    background-image: url('../Assignment-2/B9A2-Hero-Travel/Images/Group\ 40.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 50px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 25px;
+}
+.deals-card-one{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgb(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 500px;
+    height: 350px;
+    padding: 40px;
+}
+.distance{
+    margin-left: 5px;
+    margin-right: 20px;
+}
+.time-place, .another, .one, .two, .three{
+    display: flex;
+    align-items: center;
+}
+.time-place img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.price-range{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.Packages{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.see-more{
+    width: 210px;
+}
+
 @media screen and (max-width: 600px) {
     body{
         margin: 10px 15px;
@@ -411,13 +493,13 @@ span.nav-bar{
         width: 100%;
         margin-top: 20px;
     }
-    .part-three{
+    .part-three, .part-five{
         margin-top: 25px;
     }
-    .tour-destination h2{
+    .tour-destination h2, .Choose-container h3, .card-one h4, .card-two h4, .card-three h4, .deals h3, .deals-card-one{
         font-size: 20px;
     }
-    .country-names{
+    .country-names, .price-range, .distance, .Packages{
         margin-top: 16px;
     }
     .set-one, .set-two, .set-three{
@@ -428,5 +510,58 @@ span.nav-bar{
         grid-template-rows: 176px;
         width: 100%;
         margin-bottom: 16px;
+    }
+    .Choose-container p{
+        padding-left: 5px;
+        padding-right: 25px;
+    }
+    .card-container{
+        display: inline;
+        justify-content: center;
+    }
+    .card-one, .card-two, .card-three{
+        width: 235px;
+        height: 280px;
+    }
+    .card-one img, .card-two img, .card-three img{
+        width: 48px;
+        height: 48px;
+    }
+    .resort-img-one, .resort-img-two, .resort-img-three{
+        display: flex;
+        align-items: bottom;
+        padding: 250px 15px 15px 15px;
+        margin-bottom: 15px;
+    }
+    .deals-card-one{
+        width: 350px;
+        height: 320px;
+        padding: 10px;
+    }
+    .deals-card-one h4{
+        margin-top: 25px;
+        line-height: 0;
+    }
+    .deals-card-one p{
+        line-height: 15px;
+    }
+    .time-place{
+        display: inline;
+    }
+    .one{
+        margin-bottom: 0;
+    }
+    .distance{
+        margin-bottom: 12px;
+    }
+    .another{
+        margin-bottom: 5px;
+    }
+    .booking{
+        width: 130px;
+        height: 40px;
+    }
+    .Packages{
+        display: none;
     }
 }
