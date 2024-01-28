@@ -11,11 +11,16 @@ body{
 }
 .site-name{
     display: flex;
+    align-items: center;
+}
+.site-name img{
+    width: 60px;
+    height: 55px;
 }
 .fav-style{
     color: #131318;
     font-family: Mulish;
-    font-size: 2rem;
+    font-size: 2.25rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -552,8 +557,35 @@ span.nav-bar{
 .part-eight{
     text-align: center;
     background: rgb(19, 19, 24, 0.05);
-    padding: 150px 300px;
+    padding: 150px 250px;
 }
+.foot img{
+    width: 40px;
+    height: 40px;
+}
+.foot{
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.foot-icon{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hori-line{
+    height: 1px;
+    background: rgb(19, 19, 24, 0.10);
+}
+.copy-right{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 50px;
+}
+
 @media screen and (max-width: 600px) {
     body{
         margin: 10px 15px;
@@ -719,5 +751,16 @@ span.nav-bar{
     }
     .travel-com{
         font-size: 16px;
+    }
+    .part-eight{
+        padding: 0;
+        position: relative;
+        bottom: 160px;
+    }
+    .foot{
+        margin-bottom: 0;
+    }
+    .copy-right{
+        margin-top: 20px;
     }
 }
