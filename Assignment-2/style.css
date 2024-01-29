@@ -87,6 +87,7 @@ span.nav-bar{
     height: 90px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
+    position: relative;
 }
 .input-style{
     width: 175px;
@@ -102,9 +103,15 @@ span.nav-bar{
     line-height: normal;
     padding-left: 10px;
 }
-.down-bar-one, .down-bar-two{
-    position: relative;
-    right: 55px;
+.down-bar-one{
+    position: absolute;
+    right: 52.5%;
+    width: 24px;
+    height: 24px;
+}
+.down-bar-two{
+    position: absolute;
+    right: 27.5%;
     width: 24px;
     height: 24px;
 }
@@ -180,6 +187,7 @@ span.nav-bar{
 }
 .set-one{
     display: grid;
+    justify-content: space-between;
     gap: 25px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 300px;
@@ -221,8 +229,9 @@ span.nav-bar{
 }
 .set-two{
     display: grid;
+    justify-content: space-around;
     gap: 25px;
-    grid-template-columns: 32% 40% 23.75%;
+    grid-template-columns: 32.5% 40.75% 24%;
     grid-template-rows: 286px;
     margin-bottom: 25px;
 }
@@ -279,8 +288,9 @@ span.nav-bar{
 }
 .set-three{
     display: grid;
+    justify-content: space-between;
     gap: 25px;
-    grid-template-columns: 40.5% 57.25%;
+    grid-template-columns: 41% 57.75%;
     grid-template-rows: 300px;
     margin-bottom: 25px;
 }
@@ -369,7 +379,7 @@ span.nav-bar{
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    padding: 32px;
+    padding: 35px;
 }
 .card-one h4, .card-two h4, .card-three h4, .deals-card-one h4, .news-letter h4{
     color: #131318;
@@ -499,7 +509,9 @@ span.nav-bar{
 }
 
 /* Seventh Section */
-
+.part-seven{
+    position: relative;
+}
 .web-site{
     display: flex;
     justify-content: space-between;
@@ -548,8 +560,8 @@ span.nav-bar{
     font-style: normal;
     line-height: 5px;
     padding-top: 5px;
-    position: relative;
-    bottom: 150px;
+    position: absolute;
+    bottom: 12%;
     left: 72%;
 }
 .travel-com{  
@@ -625,23 +637,24 @@ span.nav-bar{
         height: 285px;
         display: grid;
         align-items: center;    
+        position: relative;
     }
     .input-style{
         width: 200px;
         height: 20px;
         padding: 16px;
     }
-    .input-bar>.down-bar-one{
+    .down-bar-one{
         position: absolute;
-        left: 70%;
-        bottom: 24%;
+        left: 72.5%;
+        bottom: 57.5%;
         width: 24px;
         height: 24px;
     }
     .down-bar-two{
         position: absolute;
-        left: 70%;
-        bottom: 11%;
+        left: 72.5%;
+        bottom: 32.5%;
         width: 24px;
         height: 24px;
     }
@@ -684,10 +697,17 @@ span.nav-bar{
     }
     .card-container{
         display: inline;
-        justify-content: center;
     }
-    .card-one, .card-two, .card-three{
-        width: 235px;
+    .card-container-two{
+        display: flex;
+        justify-content: left;
+    }
+    .card-one, .card-two{
+        width: 75%;
+        height: 280px;
+    }
+    .card-three{
+        width: 100%;
         height: 280px;
     }
     .card-one img, .card-two img, .card-three img{
@@ -774,8 +794,9 @@ span.nav-bar{
     .save-tag{
         width: 215px;
         height: 75px;
+        position: absolute;
         left: 110px;
-        bottom: 115px;
+        bottom: 35px;
     }
     .travel-com{
         font-size: 16px;
@@ -783,7 +804,7 @@ span.nav-bar{
     .part-eight{
         padding: 5px;
         position: relative;
-        bottom: 160px;
+        bottom: 60px;
     }
     .foot{
         margin-bottom: 0;
