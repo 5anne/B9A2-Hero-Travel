@@ -48,7 +48,6 @@ span.nav-bar{
 .home-color{
     color: #FF5400;
 }
-
 .explore-segment{
     background-image: url('../Assignment-2/B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png');
     background-blend-mode: multiply;
@@ -139,6 +138,7 @@ span.nav-bar{
     margin-right: 6px;
 }
 
+/* main section  */
 /* Second Section  */
 
 .part-two{
