@@ -102,6 +102,12 @@ span.nav-bar{
     line-height: normal;
     padding-left: 10px;
 }
+.down-bar-one, .down-bar-two{
+    position: relative;
+    right: 55px;
+    width: 24px;
+    height: 24px;
+}
 .icon-style{
     position: relative;
     right: 55px;
@@ -130,6 +136,7 @@ span.nav-bar{
 
 .part-two{
     display: flex;
+    justify-content: space-between;
     margin-top: 100px;
     gap: 60px;
 }
@@ -215,7 +222,7 @@ span.nav-bar{
 .set-two{
     display: grid;
     gap: 25px;
-    grid-template-columns: 32% 40% 23.5%;
+    grid-template-columns: 32% 40% 23.75%;
     grid-template-rows: 286px;
     margin-bottom: 25px;
 }
@@ -334,6 +341,7 @@ span.nav-bar{
 }
 .card-container{
     display: flex;
+    justify-content: space-between;
     gap: 25px;
     margin-top: 35px;
 }
@@ -342,11 +350,11 @@ span.nav-bar{
     justify-content: center;
 }
 .card-one, .card-two{
-    width: 50%;
+    width: 100%;
     height: 210px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
-    padding: 32px;
+    padding: 35px;
     margin-bottom: 25px;
 }
 .card-one{
@@ -369,10 +377,10 @@ span.nav-bar{
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
+    line-height: 10px;
 }
 
-/* Fourth Section */
+/* Fifth Section */
 
 .part-five{
     margin-top: 60px;
@@ -494,6 +502,7 @@ span.nav-bar{
 
 .web-site{
     display: flex;
+    justify-content: space-between;
     gap: 25px;
 }
 .news-letter {
@@ -541,7 +550,7 @@ span.nav-bar{
     padding-top: 5px;
     position: relative;
     bottom: 150px;
-    left: 800px;
+    left: 72%;
 }
 .travel-com{  
     font-size: 1.5rem;
@@ -593,13 +602,18 @@ span.nav-bar{
     a.link-style{
         display: none;    
     }
+    .site-name img{
+        width: 35px;
+        height: 30px;
+    }
     span.nav-bar{
         display: inline-block;
     }
     .explore-segment{
+        margin-top: 5px;
         padding: 25px 15px;
     }
-    .explore-title{
+    .explore-title, .fav-style{
         font-size: 22px;
     }
     .explore-description{
@@ -617,6 +631,20 @@ span.nav-bar{
         height: 20px;
         padding: 16px;
     }
+    .input-bar>.down-bar-one{
+        position: absolute;
+        left: 70%;
+        bottom: 24%;
+        width: 24px;
+        height: 24px;
+    }
+    .down-bar-two{
+        position: absolute;
+        left: 70%;
+        bottom: 11%;
+        width: 24px;
+        height: 24px;
+    }
     .find-more{
         width: 235px;
         height: 55px;
@@ -632,10 +660,10 @@ span.nav-bar{
         width: 100%;
         margin-top: 20px;
     }
-    .part-three, .part-five{
+    .part-three, .part-four, .part-five{
         margin-top: 25px;
     }
-    .tour-destination h2, .Choose-container h3, .card-one h4, .card-two h4, .card-three h4, .deals h3, .deals-card-one, .perfect-segment h1, .tour-blog p, .news-letter h4, .save-up{
+    .popular-tour h3, .tour-destination h3, .Choose-container h3, .card-one h4, .card-two h4, .card-three h4, .deals h3, .deals-card-one, .perfect-segment h1, .tour-blog p, .news-letter h4, .save-up{
         font-size: 20px;
     }
     .country-names, .price-range, .distance, .Packages{
@@ -744,16 +772,16 @@ span.nav-bar{
         height: 300px;
     }
     .save-tag{
-        width: 214.023px;
-        height: 79.268px;
-        left: 70px;
-        bottom: 120px;
+        width: 215px;
+        height: 75px;
+        left: 110px;
+        bottom: 115px;
     }
     .travel-com{
         font-size: 16px;
     }
     .part-eight{
-        padding: 0;
+        padding: 5px;
         position: relative;
         bottom: 160px;
     }
