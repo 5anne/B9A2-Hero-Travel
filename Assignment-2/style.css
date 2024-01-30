@@ -198,7 +198,7 @@ span.nav-bar{
     justify-items: center;
     align-items: center;
     border-radius: 15px;
-    background-image: url('../Images/Rectangle\ 5.png');
+    background-image: url('../Assignment-2/Images/Rectangle\ 5.png');
     background-blend-mode: multiply;
     background-color: rgb(19, 19, 24, 0.2);
     background-size: cover;
@@ -215,7 +215,7 @@ span.nav-bar{
     justify-items: center;
     align-items: center;
     border-radius: 15px;
-    background-image: url('../Images/Rectangle\ 8.png');
+    background-image: url('../Assignment-2/Images/Rectangle\ 8.png');
     background-blend-mode: multiply;
     background-color: rgb(19, 19, 24, 0.2);
     background-size: cover;
@@ -240,7 +240,7 @@ span.nav-bar{
     justify-items: center;
     align-items: center;
     border-radius: 15px;
-    background-image: url('../Images/Rectangle\ 6.png');
+    background-image: url('../Assignment-2/Images/Rectangle\ 6.png');
     background-blend-mode: multiply;
     background-color: rgb(19, 19, 24, 0.2);
     background-size: cover;
@@ -257,7 +257,7 @@ span.nav-bar{
     justify-items: center;
     align-items: center;
     border-radius: 15px;
-    background-image: url('../Images/Rectangle\ 7.png');
+    background-image: url('../Assignment-2/Images/Rectangle\ 7.png');
     background-blend-mode: multiply;
     background-color: rgb(19, 19, 24, 0.2);
     background-size: cover;
@@ -274,7 +274,7 @@ span.nav-bar{
     justify-items: center;
     align-items: center;
     border-radius: 15px;
-    background-image: url('../Images/Rectangle\ 9.png');
+    background-image: url('../Assignment-2/Images/Rectangle\ 9.png');
     background-blend-mode: multiply;
     background-color: rgb(19, 19, 24, 0.2);
     background-size: cover;
@@ -299,7 +299,7 @@ span.nav-bar{
     justify-items: center;
     align-items: center;
     border-radius: 15px;
-    background-image: url('../Images/Rectangle\ 11.png');
+    background-image: url('../Assignment-2/Images/Rectangle\ 11.png');
     background-blend-mode: multiply;
     background-color: rgb(19, 19, 24, 0.2);
     background-size: cover;
@@ -316,7 +316,7 @@ span.nav-bar{
     justify-items: center;
     align-items: center;
     border-radius: 15px;
-    background-image: url('../Images/Rectangle\ 10.png');
+    background-image: url('../Assignment-2/Images/Rectangle\ 10.png');
     background-blend-mode: multiply;
     background-color: rgb(19, 19, 24, 0.2);
     background-size: cover;
@@ -413,7 +413,7 @@ span.nav-bar{
     line-height: 25px; 
 }
 .resort-img-one, .resort-img-three{
-    background-image: url('../Images/Group\ 39.png');
+    background-image: url('../Assignment-2/Images/Group\ 39.png');
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -423,7 +423,7 @@ span.nav-bar{
     margin-bottom: 25px;
 }
 .resort-img-two{
-    background-image: url('../Images/Group\ 40.png');
+    background-image: url('../Assignment-2/Images/Group\ 40.png');
     background-size: cover;
     background-position: center;
     border-radius: 16px;
